@@ -6,11 +6,11 @@ const Navbar = () => {
     return ( 
         <div className="navbar">
                {/* <img src={logo} alt="logo" /> */}
-            <h1>JUNIOR SCIENCE COLLEGE</h1>
+            <h1>JUNIOR  SCIENCE  COLLEGE</h1>
          <div className="links">
             <Link to="/">Home</Link>
             <Link to="/Material">Study Material</Link>
-            <Link to="/Enroll">Buy a Course</Link>
+            <Link to="/fees">Online Fees</Link>
             <Link to="/success">Success Stories</Link>
          </div>
 
