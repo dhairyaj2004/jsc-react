@@ -2,21 +2,23 @@ import './App.css';
 import Navbar from "./components/navbar.js"
 import Home from "./components/home.js"
 import Register from "./components/signup"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Signin from "./components/signin.js"
+import { BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        {/* <Switch>
-          <Route exact path='/'> */}
-            <Home />
-          {/* </Route> */}
-          {/* <Route path='/register'>
-            <Register />
-          </Route> */}
-          {/* <Register/> */}
-        {/* </Switch> */}
+        <div className='main'>
+          {/* <Switch> */}
+            {/* <Route exact path='/signin' >
+              <Signin />
+            </Route> */}
+            {/* <Route path='/register'> */}
+              <Home />
+            {/* </Route>
+          </Switch> */}
+        </div>
       </div>
     </Router>
   );

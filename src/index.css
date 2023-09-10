@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: Quicksand;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #333;
 }
 
@@ -13,6 +13,11 @@
   max-width: auto;
   margin: 0 auto;
   border-bottom: 3px solid #000000;
+  
+}
+.navbar img{
+  height:50px;
+  margin-right: 10px;
   
 }
 .navbar h1 {
@@ -34,9 +39,9 @@
   color: #ecc653;
 }
 body{
-  background: #ecfeff;
+  background: #defffa;
 }
-.Home {
+.signin {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 5);
@@ -132,4 +137,83 @@ input[type="submit"]:hover {
 }
 .intro h1{
   color: #00065f;
+}
+.intro img{
+  width: auto;
+  align-items: center;
+  margin-top: 50px;
+  opacity: .6;
+}
+.reasons h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0a0060;
+}
+.reasons ul li{
+ color: #0a0060;
+ list-style: square;
+
+}* {
+	box-sizing: border-box;
+}
+
+/* body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+} */
+
+ol {
+	padding: 0;
+	margin: 0;
+	max-width: 700px;
+	position: relative;
+}
+
+ol::before {
+	content: '';
+	width: 0.5rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: peachpuff;
+	z-index: -1;
+}
+
+li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+/* ::marker {
+	font-weight: 600;
+	color: tomato;
+	font-size: 1.8rem;
+}  */
+.reasons img{
+  margin-right: auto;
+  float: right;
+  margin-top: -10px;
+}
+.about-us{
+  margin-top: 50px;
+  background: #000;
+  opacity: 6;
+  height: 150px;
+  color: white;
+}
+.about-us p {
+  color: white;
+}
+.about-us h3{
+  color: white;
 }
