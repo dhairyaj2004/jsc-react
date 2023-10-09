@@ -10,14 +10,18 @@ function App() {
       <div className="App">
         <Navbar />
         <div className='main'>
-          {/* <Switch> */}
-            {/* <Route exact path='/signin' >
-              <Signin />
-            </Route> */}
-            {/* <Route path='/register'> */}
+          <Switch>
+          <Route exact path='/'>
               <Home />
-            {/* </Route>
-          </Switch> */}
+            </Route>
+            <Route path='/Signin' >
+              <Signin />
+            </Route>
+            <Route path='/register'>
+              <Register />
+            </Route>
+          </Switch>
+          
         </div>
       </div>
     </Router>

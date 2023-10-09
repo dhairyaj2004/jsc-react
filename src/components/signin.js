@@ -8,7 +8,7 @@ const Signin = () => {
             <h3>"Welcome to Junior Science College, where knowledge meets ambition. Join us on a journey of discovery and academic excellence."</h3>
             </div>
           <div class="signin">
-        <h2>Login to JSC</h2>
+        <h2>Login to JSC</h2> 
         <form>
             <div class="form-group">
                 <label for="username">Username</label>
