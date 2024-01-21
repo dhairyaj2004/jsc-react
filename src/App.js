@@ -3,14 +3,19 @@ import Navbar from "./components/navbar.js"
 import Home from "./components/home.js"
 import Register from "./components/signup"
 import Signin from "./components/signin.js"
-import { BrowserRouter as Router,Switch,Route,} from "react-router-dom";
+import Material from "./components/material.js"
+import { BrowserRouter as Switch,Route, BrowserRouter,} from "react-router-dom";
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <div className='main'>
-          <Switch>
+        <Home /> 
+         <Signin />
+        <Register />
+        <Material/>
+          {/* <Switch>
           <Route exact path='/'>
               <Home />
             </Route>
@@ -20,11 +25,14 @@ function App() {
             <Route path='/register'>
               <Register />
             </Route>
-          </Switch>
+            <Route path='/Material'>
+              <Material />
+            </Route>
+          </Switch> */}
           
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

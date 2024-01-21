@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 const Register = () => {
     return ( 
+        <>
+        <div className="intro">
+            <h1>Welcome to the best place for your 11th & 12th Science journey!🤩</h1><br/>
+            <h3>"Welcome to Junior Science College, where knowledge meets ambition. Join us on a journey of discovery and academic excellence."</h3>
+            </div>
         <div className="SignUp">
         <h2>Create an Account To Start your journey with JSC</h2>
-
+        
         <form>
             <div class="form-group">
                 <label for="full-name">Full Name</label>
@@ -35,6 +40,7 @@ const Register = () => {
         </form>
         <p>Already have an account?<Link to="/">SIgn In</Link></p>
     </div>
+    </>
      );
 }
  
